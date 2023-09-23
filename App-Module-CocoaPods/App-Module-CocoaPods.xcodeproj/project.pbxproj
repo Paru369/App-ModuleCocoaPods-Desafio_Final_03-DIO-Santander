@@ -7,27 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41B223342ABF8F9100C2E23C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B223332ABF8F9100C2E23C /* AppDelegate.swift */; };
-		41B223362ABF8F9100C2E23C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B223352ABF8F9100C2E23C /* SceneDelegate.swift */; };
-		41B223382ABF8F9100C2E23C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B223372ABF8F9100C2E23C /* ViewController.swift */; };
-		41B2233B2ABF8F9100C2E23C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B223392ABF8F9100C2E23C /* Main.storyboard */; };
-		41B2233D2ABF8F9300C2E23C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B2233C2ABF8F9300C2E23C /* Assets.xcassets */; };
-		41B223402ABF8F9300C2E23C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B2233E2ABF8F9300C2E23C /* LaunchScreen.storyboard */; };
+		41B2235E2ABFAB8000C2E23C /* App_Module_CocoaPodsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2235D2ABFAB8000C2E23C /* App_Module_CocoaPodsApp.swift */; };
+		41B223602ABFAB8000C2E23C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2235F2ABFAB8000C2E23C /* ContentView.swift */; };
+		41B223622ABFAB8200C2E23C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B223612ABFAB8200C2E23C /* Assets.xcassets */; };
+		41B223652ABFAB8200C2E23C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B223642ABFAB8200C2E23C /* Preview Assets.xcassets */; };
+		41B223702ABFAC7900C2E23C /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2236F2ABFAC7900C2E23C /* Character.swift */; };
+		41B223722ABFACD000C2E23C /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B223712ABFACD000C2E23C /* CharacterService.swift */; };
+		41B223742ABFAD0E00C2E23C /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B223732ABFAD0E00C2E23C /* CharacterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		41B223302ABF8F9100C2E23C /* App-Module-CocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-Module-CocoaPods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		41B223332ABF8F9100C2E23C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41B223352ABF8F9100C2E23C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		41B223372ABF8F9100C2E23C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41B2233A2ABF8F9100C2E23C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		41B2233C2ABF8F9300C2E23C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		41B2233F2ABF8F9300C2E23C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		41B223412ABF8F9300C2E23C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41B2235A2ABFAB8000C2E23C /* App-Module-CocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-Module-CocoaPods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B2235D2ABFAB8000C2E23C /* App_Module_CocoaPodsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Module_CocoaPodsApp.swift; sourceTree = "<group>"; };
+		41B2235F2ABFAB8000C2E23C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41B223612ABFAB8200C2E23C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41B223642ABFAB8200C2E23C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41B2236F2ABFAC7900C2E23C /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		41B223712ABFACD000C2E23C /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
+		41B223732ABFAD0E00C2E23C /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		41B2232D2ABF8F9100C2E23C /* Frameworks */ = {
+		41B223572ABFAB8000C2E23C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,46 +38,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		41B223272ABF8F9100C2E23C = {
+		41B223512ABFAB8000C2E23C = {
 			isa = PBXGroup;
 			children = (
-				41B223322ABF8F9100C2E23C /* App-Module-CocoaPods */,
-				41B223312ABF8F9100C2E23C /* Products */,
+				41B2235C2ABFAB8000C2E23C /* App-Module-CocoaPods */,
+				41B2235B2ABFAB8000C2E23C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		41B223312ABF8F9100C2E23C /* Products */ = {
+		41B2235B2ABFAB8000C2E23C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41B223302ABF8F9100C2E23C /* App-Module-CocoaPods.app */,
+				41B2235A2ABFAB8000C2E23C /* App-Module-CocoaPods.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		41B223322ABF8F9100C2E23C /* App-Module-CocoaPods */ = {
+		41B2235C2ABFAB8000C2E23C /* App-Module-CocoaPods */ = {
 			isa = PBXGroup;
 			children = (
-				41B223332ABF8F9100C2E23C /* AppDelegate.swift */,
-				41B223352ABF8F9100C2E23C /* SceneDelegate.swift */,
-				41B223372ABF8F9100C2E23C /* ViewController.swift */,
-				41B223392ABF8F9100C2E23C /* Main.storyboard */,
-				41B2233C2ABF8F9300C2E23C /* Assets.xcassets */,
-				41B2233E2ABF8F9300C2E23C /* LaunchScreen.storyboard */,
-				41B223412ABF8F9300C2E23C /* Info.plist */,
+				41B2236E2ABFAC1B00C2E23C /* ViewModel */,
+				41B2236D2ABFABCB00C2E23C /* Network */,
+				41B2236C2ABFABAC00C2E23C /* View */,
+				41B2236B2ABFABA000C2E23C /* Model */,
+				41B2235D2ABFAB8000C2E23C /* App_Module_CocoaPodsApp.swift */,
+				41B2235F2ABFAB8000C2E23C /* ContentView.swift */,
+				41B223612ABFAB8200C2E23C /* Assets.xcassets */,
+				41B223632ABFAB8200C2E23C /* Preview Content */,
 			);
 			path = "App-Module-CocoaPods";
+			sourceTree = "<group>";
+		};
+		41B223632ABFAB8200C2E23C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41B223642ABFAB8200C2E23C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41B2236B2ABFABA000C2E23C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41B2236F2ABFAC7900C2E23C /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41B2236C2ABFABAC00C2E23C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41B2236D2ABFABCB00C2E23C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				41B223712ABFACD000C2E23C /* CharacterService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		41B2236E2ABFAC1B00C2E23C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				41B223732ABFAD0E00C2E23C /* CharacterViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		41B2232F2ABF8F9100C2E23C /* App-Module-CocoaPods */ = {
+		41B223592ABFAB8000C2E23C /* App-Module-CocoaPods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41B223442ABF8F9300C2E23C /* Build configuration list for PBXNativeTarget "App-Module-CocoaPods" */;
+			buildConfigurationList = 41B223682ABFAB8200C2E23C /* Build configuration list for PBXNativeTarget "App-Module-CocoaPods" */;
 			buildPhases = (
-				41B2232C2ABF8F9100C2E23C /* Sources */,
-				41B2232D2ABF8F9100C2E23C /* Frameworks */,
-				41B2232E2ABF8F9100C2E23C /* Resources */,
+				41B223562ABFAB8000C2E23C /* Sources */,
+				41B223572ABFAB8000C2E23C /* Frameworks */,
+				41B223582ABFAB8000C2E23C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +125,25 @@
 			);
 			name = "App-Module-CocoaPods";
 			productName = "App-Module-CocoaPods";
-			productReference = 41B223302ABF8F9100C2E23C /* App-Module-CocoaPods.app */;
+			productReference = 41B2235A2ABFAB8000C2E23C /* App-Module-CocoaPods.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		41B223282ABF8F9100C2E23C /* Project object */ = {
+		41B223522ABFAB8000C2E23C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					41B2232F2ABF8F9100C2E23C = {
+					41B223592ABFAB8000C2E23C = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 41B2232B2ABF8F9100C2E23C /* Build configuration list for PBXProject "App-Module-CocoaPods" */;
+			buildConfigurationList = 41B223552ABFAB8000C2E23C /* Build configuration list for PBXProject "App-Module-CocoaPods" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,63 +151,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 41B223272ABF8F9100C2E23C;
-			productRefGroup = 41B223312ABF8F9100C2E23C /* Products */;
+			mainGroup = 41B223512ABFAB8000C2E23C;
+			productRefGroup = 41B2235B2ABFAB8000C2E23C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				41B2232F2ABF8F9100C2E23C /* App-Module-CocoaPods */,
+				41B223592ABFAB8000C2E23C /* App-Module-CocoaPods */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		41B2232E2ABF8F9100C2E23C /* Resources */ = {
+		41B223582ABFAB8000C2E23C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41B223402ABF8F9300C2E23C /* LaunchScreen.storyboard in Resources */,
-				41B2233D2ABF8F9300C2E23C /* Assets.xcassets in Resources */,
-				41B2233B2ABF8F9100C2E23C /* Main.storyboard in Resources */,
+				41B223652ABFAB8200C2E23C /* Preview Assets.xcassets in Resources */,
+				41B223622ABFAB8200C2E23C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		41B2232C2ABF8F9100C2E23C /* Sources */ = {
+		41B223562ABFAB8000C2E23C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41B223382ABF8F9100C2E23C /* ViewController.swift in Sources */,
-				41B223342ABF8F9100C2E23C /* AppDelegate.swift in Sources */,
-				41B223362ABF8F9100C2E23C /* SceneDelegate.swift in Sources */,
+				41B223702ABFAC7900C2E23C /* Character.swift in Sources */,
+				41B223742ABFAD0E00C2E23C /* CharacterViewModel.swift in Sources */,
+				41B223602ABFAB8000C2E23C /* ContentView.swift in Sources */,
+				41B2235E2ABFAB8000C2E23C /* App_Module_CocoaPodsApp.swift in Sources */,
+				41B223722ABFACD000C2E23C /* CharacterService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		41B223392ABF8F9100C2E23C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41B2233A2ABF8F9100C2E23C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		41B2233E2ABF8F9300C2E23C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41B2233F2ABF8F9300C2E23C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		41B223422ABF8F9300C2E23C /* Debug */ = {
+		41B223662ABFAB8200C2E23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		41B223432ABF8F9300C2E23C /* Release */ = {
+		41B223672ABFAB8200C2E23C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,18 +303,19 @@
 			};
 			name = Release;
 		};
-		41B223452ABF8F9300C2E23C /* Debug */ = {
+		41B223692ABFAB8200C2E23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"App-Module-CocoaPods/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "App-Module-CocoaPods/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,18 +331,19 @@
 			};
 			name = Debug;
 		};
-		41B223462ABF8F9300C2E23C /* Release */ = {
+		41B2236A2ABFAB8200C2E23C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"App-Module-CocoaPods/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "App-Module-CocoaPods/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -337,25 +362,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		41B2232B2ABF8F9100C2E23C /* Build configuration list for PBXProject "App-Module-CocoaPods" */ = {
+		41B223552ABFAB8000C2E23C /* Build configuration list for PBXProject "App-Module-CocoaPods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				41B223422ABF8F9300C2E23C /* Debug */,
-				41B223432ABF8F9300C2E23C /* Release */,
+				41B223662ABFAB8200C2E23C /* Debug */,
+				41B223672ABFAB8200C2E23C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41B223442ABF8F9300C2E23C /* Build configuration list for PBXNativeTarget "App-Module-CocoaPods" */ = {
+		41B223682ABFAB8200C2E23C /* Build configuration list for PBXNativeTarget "App-Module-CocoaPods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				41B223452ABF8F9300C2E23C /* Debug */,
-				41B223462ABF8F9300C2E23C /* Release */,
+				41B223692ABFAB8200C2E23C /* Debug */,
+				41B2236A2ABFAB8200C2E23C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 41B223282ABF8F9100C2E23C /* Project object */;
+	rootObject = 41B223522ABFAB8000C2E23C /* Project object */;
 }
