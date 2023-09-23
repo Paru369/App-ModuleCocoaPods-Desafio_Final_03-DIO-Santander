@@ -31,5 +31,15 @@ final class CharacterViewModelImpl: CharacterViewModel {
         self.service = service
     }
     
-   
+    func getCharacters() async {
+        self.state = .loading
+        self.hasError = false
+        do {
+            let data = try await service.fetchAllCharacters()
+            self.state = .success(data: data)
+        } catch {
+            self.state = .failed(error: error)
+            self.hasError = true
+        }
+    }
 }
