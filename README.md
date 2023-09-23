@@ -31,7 +31,8 @@ O projeto tem como objetivo aplicar a camada de network em um módulo sendo cons
 - MVVM 
 - API: https://rickandmortyapi.com/
 - JSON to struct: https://app.quicktype.io/
-
+- Async/Await
+- Error Handling
 
 
 ## 📲 Images (in progress)
