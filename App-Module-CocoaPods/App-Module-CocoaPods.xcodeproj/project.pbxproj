@@ -15,6 +15,7 @@
 		41B223402ABF8F9300C2E23C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B2233E2ABF8F9300C2E23C /* LaunchScreen.storyboard */; };
 		41B2234B2ABF9FC900C2E23C /* CharacterServiceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2234A2ABF9FC900C2E23C /* CharacterServiceResult.swift */; };
 		41B2234D2ABFA08300C2E23C /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2234C2ABFA08300C2E23C /* CharacterService.swift */; };
+		41B2234F2ABFA37B00C2E23C /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2234E2ABFA37B00C2E23C /* CharacterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		41B223412ABF8F9300C2E23C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41B2234A2ABF9FC900C2E23C /* CharacterServiceResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterServiceResult.swift; sourceTree = "<group>"; };
 		41B2234C2ABFA08300C2E23C /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
+		41B2234E2ABFA37B00C2E23C /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		41B223492ABF9F7400C2E23C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				41B2234E2ABFA37B00C2E23C /* CharacterViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				41B2234B2ABF9FC900C2E23C /* CharacterServiceResult.swift in Sources */,
 				41B223382ABF8F9100C2E23C /* ViewController.swift in Sources */,
 				41B223342ABF8F9100C2E23C /* AppDelegate.swift in Sources */,
+				41B2234F2ABFA37B00C2E23C /* CharacterViewModel.swift in Sources */,
 				41B223362ABF8F9100C2E23C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
