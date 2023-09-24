@@ -6,14 +6,20 @@
 //
 
 import Foundation
-
+import Network
 
 protocol CharacterViewModel: ObservableObject {
     func getCharacters() async
 }
 
+//protocol CharacterService {
+//   func fetchAllCharacters() async throws -> [Character]
+//    init()
+//}
+
 @MainActor
 final class CharacterViewModelImpl: CharacterViewModel {
+    
     
     enum State {
         case na
@@ -26,7 +32,7 @@ final class CharacterViewModelImpl: CharacterViewModel {
     @Published var hasError: Bool = false
     
     // Handle Errors with the alert
-    private let service: CharacterService
+    let service: CharacterService
     
     init(service: CharacterService) {
         self.service = service

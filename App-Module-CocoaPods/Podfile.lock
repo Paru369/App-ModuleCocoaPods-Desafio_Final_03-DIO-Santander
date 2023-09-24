@@ -1,0 +1,18 @@
+PODS:
+  - Network (0.1.0):
+    - Network/Release (= 0.1.0)
+  - Network/Release (0.1.0)
+
+DEPENDENCIES:
+  - Network (from `../Network-Module/`)
+
+EXTERNAL SOURCES:
+  Network:
+    :path: "../Network-Module/"
+
+SPEC CHECKSUMS:
+  Network: 0d1f4438b58ab8925c3edd2b01c9652dc535a2fe
+
+PODFILE CHECKSUM: 507f8c38a7eaf6eb1800313817c328efb6632dfc
+
+COCOAPODS: 1.13.0

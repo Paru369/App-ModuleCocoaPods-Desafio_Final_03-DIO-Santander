@@ -6,11 +6,20 @@
 //
 
 import SwiftUI
+import Network
+
+
+
 
 struct MainView: View {
     
+    public func createCharacterService() -> CharacterService {
+        return CharacterServiceImpl()
+    }
+    
+    
     @StateObject private var vm = CharacterViewModelImpl(
-        service: CharacterServiceImpl()
+        service: CharacterServiceImpl() 
     )
     
     var body: some View {
