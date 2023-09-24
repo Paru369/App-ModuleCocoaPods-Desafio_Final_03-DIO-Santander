@@ -19,14 +19,10 @@ O projeto tem como objetivo aplicar a camada de network em um módulo sendo cons
 ## ✅ Features
 📱 Listagem de personagens da série Rick e Morty <br>
 🌐 Consumo de API<br>
-📦 Modulo de Network em<br>
+📦 Modulo de Network em https://github.com/Paru369/Modularizacao-Desafio_Final_03-DIO-Santander <br>
 🧐 Tratamento de erros na aplicação.<br>
 
-<br>
-<br>
-
-
-## 📱 Technologies and knowledges 
+## 📱 Tecnologias utilizadas 
 - SwiftUI 
 - MVVM 
 - API: https://rickandmortyapi.com/
@@ -34,11 +30,9 @@ O projeto tem como objetivo aplicar a camada de network em um módulo sendo cons
 - Async/Await
 - Error Handling
 
+## 📲 Images 
+  <img width="272" alt="Screenshot 2023-09-24 at 4 35 26 PM" src="https://github.com/Paru369/App-ModuleCocoaPods-Desafio_Final_03-DIO-Santander/assets/99094718/29e5b73a-df8f-41ee-b684-6ecdc38cc834">
 
-## 📲 Images (in progress)
-<img align="center" width="200px" src="https://github.com/Paru369/App-SwiftUI-Combine-Desafio_Final_02-DIO-Santander/blob/main/images/inews.gif"> <img align="center" width="200px" src="https://github.com/Paru369/App-SwiftUI-Combine-Desafio_Final_02-DIO-Santander/blob/main/images/inews1.png"> <img align="center" width="200px" src="https://github.com/Paru369/App-SwiftUI-Combine-Desafio_Final_02-DIO-Santander/blob/main/images/inews2.png"> <img align="center" width="200px" src="https://github.com/Paru369/App-SwiftUI-Combine-Desafio_Final_02-DIO-Santander/blob/main/images/inewserror.png">
-  
-  
 ## ☑️ Requirements
 
 - [XCode](https://developer.apple.com/xcode/)
@@ -47,16 +41,13 @@ O projeto tem como objetivo aplicar a camada de network em um módulo sendo cons
 ## ⚙️ Como executar
 
 - Realize o download deste repositorio
+- Realize o download do módulo em https://github.com/Paru369/Modularizacao-Desafio_Final_03-DIO-Santander e deixe na pasta Network ao mesmo nivel do projeto
 - Intale o modulo realizando o comando ```pod install``
 
-## Contributing
+Esta será a visão com o módulo e o projeto<br>
+<img width="259" alt="Screenshot 2023-09-24 at 4 33 08 PM" src="https://github.com/Paru369/App-ModuleCocoaPods-Desafio_Final_03-DIO-Santander/assets/99094718/81780170-6dc9-457d-97fc-7ae918a647eb">
 
-If you'd like to contribute with this project, please follow these steps:
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and ensure all tests pass.
-4. Submit a pull request with a clear description of your changes and why they are necessary.
 
 ## Commit Convention
 
