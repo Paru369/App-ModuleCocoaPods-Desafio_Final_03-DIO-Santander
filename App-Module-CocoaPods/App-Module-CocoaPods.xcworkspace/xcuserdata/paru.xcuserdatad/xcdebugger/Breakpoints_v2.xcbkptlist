@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "38E3FFCC-5DF8-43CA-9572-D478C184EC16"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CF3C6D9-05AE-4563-B9D4-AEB66C598111"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Network-Module/Network/Classes/CharacterService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "CharacterServiceImpl"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "3CF3C6D9-05AE-4563-B9D4-AEB66C598111 - 80007876d01fe2c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Network.CharacterServiceImpl.init() -&gt; Network.CharacterServiceImpl"
+                  moduleName = "Network"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paru/Documents/Code/App-ModuleCocoaPods-Desafio_Final_03-DIO-Santander/Network-Module/Network/Classes/CharacterService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "3CF3C6D9-05AE-4563-B9D4-AEB66C598111 - 80007876d01fe287"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Network.CharacterServiceImpl.init() -&gt; Network.CharacterServiceImpl"
+                  moduleName = "Network"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paru/Documents/Code/App-ModuleCocoaPods-Desafio_Final_03-DIO-Santander/Network-Module/Network/Classes/CharacterService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

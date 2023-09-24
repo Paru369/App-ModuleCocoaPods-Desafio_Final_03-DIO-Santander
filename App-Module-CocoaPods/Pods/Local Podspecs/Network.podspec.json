@@ -1,0 +1,31 @@
+{
+  "name": "Network",
+  "version": "0.1.0",
+  "summary": "A short description of Network.",
+  "description": "Feature para Network do app RickMORTY",
+  "homepage": "https://github.com/Paru369",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Paulo Victor": "paruvitu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Paru369/Modularizacao-Desafio_Final_03-DIO-Santander",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "Network/Classes/**/*",
+  "default_subspecs": "Release",
+  "subspecs": [
+    {
+      "name": "Release",
+      "vendored_frameworks": "Framework/Network.framework"
+    }
+  ],
+  "swift_version": "5.0"
+}
